@@ -16,7 +16,7 @@ while read line
 do
   name=../$line/README.md
   echo $name
-  cp $name ./$line.md
+  cp $name ./manuals/$line.md
 done < modules
 
 echo "Sync completed"
