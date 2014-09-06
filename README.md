@@ -8,3 +8,4 @@ Gekosale 2.0:
 * [Moduł Sendit](manuals/senditg2.md)
 * [Moduł SMSAPI](manuals/smsapig2.md)
 * [Moduł danych technicznych](manuals/techg2.md)
+* [Moduł DPD](manuals/dpdg2.md)
