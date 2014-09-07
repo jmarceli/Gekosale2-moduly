@@ -1,5 +1,6 @@
 Moduł Allegro
 ===
+######Gekosale 2.0
 Moduł pozwala na wystawianie aukcji allegro bezpośrednio z Panelu Administracyjnego sklepu na podstawie istniejących w sklepie produktów.
 
 ## Szablony
