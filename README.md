@@ -9,3 +9,4 @@ Gekosale 2.0:
 * [Moduł SMSAPI](manuals/smsapig2.md)
 * [Moduł danych technicznych](manuals/techg2.md)
 * [Moduł DPD](manuals/dpdg2.md)
+* [Moduł Allegro](manuals/allegro.md)
