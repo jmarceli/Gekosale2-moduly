@@ -11,6 +11,7 @@ Gekosale 2.0:
 * [Moduł DPD](manuals/dpdg2.md)
 * [Moduł Allegro](manuals/allegro.md)
 * [Moduł Poczta Polska](manuals/pocztag2.md)
+* [Moduł VAT VIES](manuals/vatviesg2.md)(europejski numer VAT)
 
 Gekosale 1.4:
 * [Moduł Poczta Polska](manuals/pocztag1.md)
