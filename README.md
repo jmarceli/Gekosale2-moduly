@@ -10,3 +10,7 @@ Gekosale 2.0:
 * [Moduł danych technicznych](manuals/techg2.md)
 * [Moduł DPD](manuals/dpdg2.md)
 * [Moduł Allegro](manuals/allegro.md)
+* [Moduł Poczta Polska](manuals/pocztag2.md)
+
+Gekosale 1.4:
+* [Moduł Poczta Polska](manuals/pocztag1.md)
