@@ -24,6 +24,7 @@ W celu wysyłania różnych maili ze sklepów w konfiguracji **multistore** niez
 ### Wersje
 - v1.0 Integracja z Pocztex oraz Paczka
 - v1.1 Dodana integracja z Pocztex Kurier 48
+- v1.11 Wiadomość email wysyłana do klienta zawiera informacje dot. aktualnego statusu (nazwa i domyślna wiadomość)
 
 ---
 
