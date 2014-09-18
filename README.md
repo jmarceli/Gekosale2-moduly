@@ -16,3 +16,4 @@ Gekosale 2.0:
 
 Gekosale 1.4:
 * [Moduł Poczta Polska](manuals/pocztag1.md)
+* [Moduł IFIRMA](manuals/ifirmag1.md)
