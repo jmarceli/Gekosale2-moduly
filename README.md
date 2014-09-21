@@ -15,6 +15,7 @@ Gekosale 2.0:
 * [Moduł VAT VIES](manuals/vatviesg2.md)(europejski numer VAT)
 * [Moduł płatności eCard](manuals/ecardg2.md)
 * [Moduł płatności eService](manuals/eserviceg2.md)
+* [Moduł płatności PayPal](manuals/paypal.md)
 
 Gekosale 1.4:
 * [Moduł Poczta Polska](manuals/pocztag1.md)
