@@ -28,6 +28,8 @@ Oczywiście moduł umożliwia ustawienie danych nadawcy. Znajdują się tam wszy
 
 Ostatnia zakładka z ustwieniami zawiera dane konfiguracyjne dla usług operatora Inpost. Można tu ustawić paczkomat nadawczy, domyślny typ paczki oraz wartość ubezpieczenia. Ustawiona tutaj wartość ubezpieczenia będzie brana pod uwagę za każdym razem gdy podczas wysyłki paczki przez operatora Inpost zaznaczymy opcję "Ubezpieczenie".
 
+Moduł ma wbudowany mechanizm zapisu listy dostępnych paczkomatów do pamięci podręcznej. Pamięć ta jest odświeżana każdorazowo przy wejściu na stronę konfiguracji modułu.
+
 ## Ograniczenia
 
 * Paczkomaty mają ograniczoną maksymalną wagę przesyłanej paczki do 25kg.
