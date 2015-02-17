@@ -5,7 +5,8 @@ Integracja z serwisem Sendit. Obejmuje operatorów DPD, UPS oraz INPOST.
 
 Moduł udostępnia stronę z listą wszystkich zamówień które spełniają ustalone w konfiguracji modułu kryteria dotyczące sposobu wysyłki oraz statusu. Dzięki ograniczeniu ze względu na metodę wysyłki zamówienia które nie mają zostać wysłane za pomocą Sendit nie pojawiają się naliście. Ograniczenie statusem zamówienia zapewnia ukrycie już zrealizowanych (zakończonych) zamówień tak, aby nie tworzyły niepotrzebnego bałaganu.
 
-Po wejściu w edycję przesyłki można ustawić dane nadawcy (domyślnie brane z zamówienia) jak również inne jej parametry (waga, kwota ubezpieczenia, kwota pobrania, paczkomat - jeśli dotyczy).
+Po wejściu w edycję przesyłki można ustawić dane nadawcy (domyślnie brane z zamówienia) jak również inne jej parametry (waga, ilość paczek w przesyłce, kwota ubezpieczenia, kwota pobrania, paczkomat - jeśli dotyczy).
+Moduł umożliwia również nadawanie przesyłek paletowych.
 
 Kolejny krok to sprawdzenie dostępnych dla adresu odbiorcy usług. Wystarczy w tym celu kliknąć przycisk "Sprawdź dostępne usługi", po chwili pojawi się lista wszystkich dostępny usług z której można wybrać właściwe dla tej paczki (np. ubezpieczenie). Na koniec można wycenić paczkę u wszystkich obsługiwanych operatorów i na podstawie tej wyceny wybrać tego który nam odpowiada.
 
@@ -14,7 +15,7 @@ Na początek należy podać login, hasło oraz klucz API. Poprawność wprowadzo
 
 Następnie można skonfigurować filtrowanie według metod wysyłki (opisywane wcześniej) oraz statusy dla zrealizowanych zamówień.
 
-Dostępna jest również opcja domyślnej wagi paczki, która zostanie użyta w przypadku gdy obliczona waga zamówienia wynosi 0 (może się to wydarzyć jeśli produkty nie mają wpisanej wagi).
+Dostępna jest również opcja domyślnej wagi paczki dla wysyłki Paczkomatami Inpost, która zostanie użyta w przypadku gdy obliczona waga zamówienia wynosi 0 (może się to wydarzyć jeśli produkty nie mają wpisanej wagi).
 
 Opcja automatyczne statusy pozwala na automatyczne zmienianie statusów po osiągnięciu przez paczkę kolejnych etapów. Do ustawienia są możliwe trzy etapy:
 
@@ -29,6 +30,11 @@ Oczywiście moduł umożliwia ustawienie danych nadawcy. Znajdują się tam wszy
 Ostatnia zakładka z ustwieniami zawiera dane konfiguracyjne dla usług operatora Inpost. Można tu ustawić paczkomat nadawczy, domyślny typ paczki oraz wartość ubezpieczenia. Ustawiona tutaj wartość ubezpieczenia będzie brana pod uwagę za każdym razem gdy podczas wysyłki paczki przez operatora Inpost zaznaczymy opcję "Ubezpieczenie".
 
 Moduł ma wbudowany mechanizm zapisu listy dostępnych paczkomatów do pamięci podręcznej. Pamięć ta jest odświeżana każdorazowo przy wejściu na stronę konfiguracji modułu.
+
+## Przydatne informacje
+W celu wygenerowania jednego protokołu zbiorczego dla kilku przesyłek, nie należy klikać przycisku generuj protokół w edycji danej przesyłki tylko zamiast tego zaznaczyć na liście przesyłek wybrane pozycji i użyć przycisku zbiorczej generacji protokołu (pod listą przesyłek). Jeśli zostanie wygenerowany indywidualny protokół dla pojedynczej przesyłki to nie ma już możliwości wygenerowania dla tej przesyłki protokołu zbiorczego (z innymi przesyłkami).
+Dodane zostało pole do wpisania komentarza (lub numeru dokumentu sprzedaży) oraz pole pozwalające wpisać zawartość przesyłki. Obydwa pola są opcjonalne.
+Ponadto na liście przesyłek możliwe jest wyświetlenie pola numeru protokołu dla danej przesyłki oraz komentarza i opisu zawartości.
 
 ## Ograniczenia
 
