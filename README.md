@@ -10,7 +10,7 @@ Gekosale 2.0:
 * [Moduł SMSAPI](manuals/smsapig2.md)
 * [Moduł danych technicznych](manuals/techg2.md)
 * [Moduł DPD](manuals/dpdg2.md)
-* [Moduł Allegro](manuals/allegro.md)
+* [Moduł Allegro](manuals/allegrog2.md)
 * [Moduł Poczta Polska](manuals/pocztag2.md)
 * [Moduł VAT VIES](manuals/vatviesg2.md)(europejski numer VAT)
 * [Moduł płatności eCard](manuals/ecardg2.md)
