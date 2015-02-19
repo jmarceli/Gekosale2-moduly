@@ -17,6 +17,7 @@ Gekosale 2.0:
 * [Moduł płatności eService](manuals/eserviceg2.md)
 * [Moduł płatności PayPal](manuals/paypalg2.md)
 * [Moduł bloga](manuals/blogg2.md)
+* [Moduł program partnerski](manuals/pointsg2.md)
 
 Gekosale 1.4:
 * [Moduł Poczta Polska](manuals/pocztag1.md)
