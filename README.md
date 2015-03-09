@@ -15,6 +15,7 @@ Gekosale 2.0:
 * [Moduł płatności PayPal](manuals/paypalg2.md)
 * [Moduł bloga](manuals/blogg2.md)
 * [Moduł program partnerski](manuals/pointsg2.md)
+* [Moduł kodów rabatowych](manuals/couponsg2.md)
 * [Moduł Poczta Polska](manuals/pocztag2.md)
 * [Moduł DPD](manuals/dpdg2.md)
 * [Moduł Sendit](manuals/senditg2.md)
