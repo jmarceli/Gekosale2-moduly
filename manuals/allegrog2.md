@@ -27,6 +27,7 @@ W celu poprawnej integracji i pobierania zamówień należy ustawić mapowanie n
 Prośba klienta o wystawienie faktury jest oznaczana poprzez dodanie odpowiedniego tekstu w Komentarzu do zamówienia \(jedna z zakładek dostępnych podczas przeglądania zamówienia\)
 ## Zdjęcia
 Moduł wykorzystuje dla miniaturek na Allegro styl odpowiadający największym zdjęciom ustawionym w sklepie *Konfiguraca->Globalna konfiguracja->Ustawienia galerii*
+Jeśli dany produkt nie ma ustawionego oddzielnego zdjęcia wykorzystywanego do aukcji Allegro, to zostanie użyte zdjęcie oznaczone jako główne.
 ## Lista aukcji
 Aukcje są synchronizowane z listą tylko poprzez zadania Crone'a albo kliknięcie przycisku synchronizacji znajdującego się nad listą. Jeśli ilość dni do końca aukcji jest mniejsz niż 3 to cyfra staje się czerwona, tak samo jeśli chodzi o ilość pozostałych na aukcji produktów.
 ## Zamówienia (edycja)

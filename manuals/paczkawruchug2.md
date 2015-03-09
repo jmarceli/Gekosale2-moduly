@@ -29,5 +29,9 @@ Lista paczek **Paczka w Ruchu** zawiera wszystkie zamówienia dla których zosta
 
 Statusy paczek na liście ze względów wydajnościowych nie są automatycznie odświeżane. Można to zrobić klikając odpowiednią ikonę dla wybranej paczki na liście, lub klikając przycisk **Aktualizuj statusy**, który zaktualizuje statusy wszystkich przesyłanych paczek.
 
+Dodane zostało ustawienie pozwalające określić metody wysyłki za pobraniem.
+
+Paczki dla które zostaną wysłane wspólnie będą również miały jeden wspólny plik PDF z etykietami. Nawet po anulowaniu jednej z paczek wygenerowany plik PDF dalej będzie zawierał etykiety wszystkich wspólnie wysłanych paczek. Można to zmienić za pomocą opcji "Wiele etykiet w jednym pliku" która po odznaczeniu będzie generowała każdą etykietę w oddzielnym pliku PDF.
+
 ---
 http://mygekosale.pl
