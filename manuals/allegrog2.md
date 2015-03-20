@@ -19,6 +19,8 @@ Operacje które powinny być co jakiś czas wykonywane za pomocą skryptu PHP:
 - synchronizacja aukcji `php cron_allegro.php 3 auctions`
 - synchronizacja drzewa kategorii `php cron_allegro.php 3 categories`
 
+## Pobieranie kategorii allegro
+Obecnie możliwe tylko poprzez automatyczne zadania CRON'a
 ## Statusy pobranych zamówień
 Pomimo ustawienia mapowania statusów nie są one niestety aktualizowane na bieżąco. Wynika to z faktu, że API Allegro nie informuje o zmianie statusu zamówienia.
 ## Mapowanie metod płatności oraz dostawy

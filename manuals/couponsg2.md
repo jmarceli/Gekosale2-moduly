@@ -10,8 +10,11 @@ W ustawienia modułu wchodzimy w Promocja->Kody rabatowe.
 **UWAGA!** Reguły koszyka dają promocję również na dostawę, natomiast kupony dają promocje na cenę BEZ dostawy.
 
 * Maksymalnie jeden aktywny kod
-* Rabat dotyczy wszystkich produktów (nie ma możliwości zdefiniowania konkretnej kategorii dla rabatu)
-* Możliwy import kodów rabatowych z pliku CSV
+* Możliwość ograniczenia rabatu tylko do produktów z wybranej kategorii
+* Możliwość ograniczenia rabatu tylko do konkretnie wybranych produktów
+* Możliwość wykluczenia produktów promocyjnych z rabatu
+* Możliwość zdefiniowania daty początkowej i końcowej obowiązywania kodu
+* Możliwość importu kodów rabatowych z pliku CSV
 * Możliwość zdefiniowania maksymalnej i minimalnej kwoty zamówienia dla danego kodu rabatowego
 * Dostępne dwa rodzaje rabatu: procentowy i kwotowy
 * Możliwość zdefiniowania ilości kuponów rabatowych
