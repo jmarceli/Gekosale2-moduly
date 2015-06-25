@@ -21,6 +21,7 @@ Gekosale 2.0:
 * [Moduł Sendit](manuals/senditg2.md)
 * [Moduł Paczkomaty Inpost](manuals/inpostg2.md)
 * [Moduł Paczka w Ruchu](manuals/paczkawruchug2.md)
+* [Moduł IFIRMA (rozbudowany)](manuals/ifirmag2.md)
 
 Gekosale 1.4:
 * [Moduł Poczta Polska](manuals/pocztag1.md)
