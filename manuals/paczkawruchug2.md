@@ -33,5 +33,12 @@ Dodane zostało ustawienie pozwalające określić metody wysyłki za pobraniem.
 
 Paczki dla które zostaną wysłane wspólnie będą również miały jeden wspólny plik PDF z etykietami. Nawet po anulowaniu jednej z paczek wygenerowany plik PDF dalej będzie zawierał etykiety wszystkich wspólnie wysłanych paczek. Można to zmienić za pomocą opcji "Wiele etykiet w jednym pliku" która po odznaczeniu będzie generowała każdą etykietę w oddzielnym pliku PDF.
 
+# Punkty odbioru (kioski)
+Lista kiosków jest aktualizowana za pomocą skryptu PHP który należy podpiąć pod zadanie CRON np. co jeden dzień. Oprócz tego każdorazowy wybór kiosku przez klienta aktualizuje dane dla tego kiosku lub dodaje go do bazy dostępnych kiosków jeśli się w niej nie znajdował.
+
+Skrypt należy podpiąć tak aby był wywoływany w następujący sposób:
+
+`php cron_pwr.php` ewentualnie `php cron_pwr.php 3`, gdzie 3 jest identyfikatorem widoku sklepu (3 to wartość domyślna)
+
 ---
 http://mygekosale.pl
