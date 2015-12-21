@@ -14,6 +14,17 @@ Klucz powinien być umieszczony w każdym przesyłanym zapytaniu jako jeden z je
 
 http://api.mygekosale.pl/api/products?key=ustawiony_klucz_api
 
+# Wielojęzyczność:
+Jeżeli sklep obsługuje więcej niż jeden język opisy w odpowiednim języku możesz pobrać dodając do zapytania parametr `lang` z odpowiednim **kodem** języka.
+Przykład:
+
+<http://api.mygekosale.pl/api/categories?key=ustawiony_klucz_api&lang=en_EN>
+
+Powyższe zapytanie zwróci angielskie opisy jeżeli `en_EN` jest poprawnym kodem języka dla języka angielskiego. W celu uzyskania kodów języka należy skontaktować się z obsługą sklepu.
+
+**UWAGA!**
+Obsługa sklepu może znaleźć kody poszczególnych języków w zakładce **Konfiguracja -> Język**. Kody języków są wypisane w kolumnie **Nazwa**.
+
 # Parametry zapytań:
 API udostępnia dwa rodzaje zapytań.
 
@@ -179,6 +190,7 @@ element | opis
 products | zewnętrzny element zbierający listę wszystkich produktów
 product | element oznaczający produkt
 name | nazwa produktu
+stock | aktualny stan magazynowy
 
 ### Atrybuty elementów
 #### products
