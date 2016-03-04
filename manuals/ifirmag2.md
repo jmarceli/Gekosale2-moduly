@@ -13,7 +13,7 @@ Dodane zostało wsparcie dla "negatywnych" reguł koszyka np. +10% do zamówieni
 
 W celu ponownego wygenerowania rachunku/faktury należy **odznaczyć** w konfiguracji modułu opcję **Zapobiegaj ponownemu fakturowaniu**, w innym przypadku zamiast ponownej generacji zostanie jedynie pobrana istniejąca faktura.
 
-Rachunek można pobrać w formacie PDF klikając odpowiedni przycisk na liście zamówień lub w widoku edycji danego zamówienia. Za pomocą opcji **Pobieraj PDFy w momencie wystawienia** można wyłączyć automatyczne pobieranie dokumentów, wtedy przyciski jedynie generują faktury w programie IFIRMA, ale ich nie pobierają.
+Rachunek można pobrać w formacie PDF klikając odpowiedni przycisk na liście zamówień. Za pomocą opcji **Pobieraj PDFy w momencie wystawienia** można wyłączyć automatyczne pobieranie dokumentów, wtedy przycisk generacji faktury jedynie generuje fakturę w programie IFIRMA, ale jej nie pobierają.
 
 Po wystawieniu faktury zamówienie może automatycznie zmienić status. Służy do tego opcja **Status po wystawieniu faktury**.
 
